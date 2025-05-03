@@ -1,0 +1,15 @@
+.search-box{
+  background-color: white;
+  display: block;
+}
+.thumbnail{
+  width: 300px;
+  object-fit: contain;
+}
+.video-title{
+  width: 300px;
+}
+
+.video-preview{
+  width: 300px;
+}
