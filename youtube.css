@@ -1,3 +1,7 @@
+p{
+  font-family: Roboto, Arial;
+}
+
 .search-box{
   background-color: white;
   display: block;
@@ -6,8 +10,14 @@
   width: 300px;
   object-fit: contain;
 }
+.thumbnail-container{
+  margin-bottom: 12px;
+}
 .video-title{
-  width: 300px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
 }
 
 .video-preview{
@@ -15,4 +25,20 @@
   display: inline-block;
   vertical-align: top;
   margin-right: 15px;
+}
+
+.video-info{
+  display: inline-block;
+  width: 240px;
+}
+
+.channel-picture{
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+
+.profile-picture{
+  width: 90%;
+  border-radius: 50px;
 }
