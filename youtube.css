@@ -3,7 +3,7 @@ body{
   padding-top: 80px;
   padding-left: 95px;
   padding-right: 24px;
-  background-color: rgb(249, 243, 243);
+  background-color: rgb(251, 247, 247);
 }
 p{
   font-family: Roboto, Arial;
@@ -110,6 +110,8 @@ p{
   left: 0;
   bottom: 0;
   width: 72px;
+  z-index: 101;
+  padding-top: 6px;
 }
 .thumbnail{
   width: 100%;
@@ -171,5 +173,39 @@ p{
   column-gap: 16px;
   row-gap: 40px;
 }
+.notifications-container{
+  position: relative;
+}
+.notifications-count{
+  position: absolute;
+  background-color: rgb(189, 14, 14);
+  padding: 3px 6px;
+  right: -6px;
+  bottom: 14px;
+  height: 12px;
+  color: white;
+  font-size: 11px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  border-radius: 9px;
+}
 
+.sidebar-link{
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.sidebar-link:hover{
+  background-color: rgb(242, 239, 239);
+}
+.sidebar-link img{
+  height: 24px;
+}
+.sidebar-link div{
+  font-size: 10px;
+  font-family: Roboto, Arial;
+  padding-top: 5px;
+}
 
