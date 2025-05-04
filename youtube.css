@@ -27,23 +27,26 @@ p{
 .middle-section{
  flex: 1;
  margin-left: 70px;
- margin-right: 35x;
+ margin-right: 45px;
  max-width: 500px;
- background-color: red;
 
  display: flex;
  align-items: center;
 }
 .search-button{
   height: 40px;
-  width: 40px;
+  width: 60px;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(192, 192, 192);
+  margin-left: -1px;
+  margin-right: 10px;
 }
 .voice-search-button{
   height: 40px;
   width: 40px;
-}
-.right-section{
-  width: 200px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(245, 245, 245);
 }
 .search-box{
   background-color: white;
@@ -58,6 +61,35 @@ p{
 .search-box::placeholder{
   font-family: Roboto, Arial;
   font-size: 16px;
+}
+.search-icon{
+  height: 25px;
+  margin-top: 4px;
+}
+.voice-search-icon{
+  height: 24px;
+  margin-top: 4px;
+}
+.right-section{
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.uploads-icon{
+  height: 24px;
+}
+.youtube-icon{
+  height: 24px;
+}
+.notifications-icon{
+  height: 24px;
+}
+.personal-profile-picture{
+  height: 32px;
+  border-radius: 16px;
 }
 .thumbnail{
   width: 100%;
