@@ -22,10 +22,7 @@ p{
   background-color: white;
   border-bottom: 1px solid rgb(180, 178, 178);
   z-index: 100;
-
 }
-
-
 .left-section{
   display: flex;
   align-items: center;
@@ -283,6 +280,24 @@ p{
   column-gap: 16px;
   row-gap: 40px;
 }
+
+@media (max-width: 750px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(min-width: 751px) and (max-width:999px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1000px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
 .notifications-container{
   position: relative;
 }
